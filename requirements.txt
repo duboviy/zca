@@ -1,0 +1,3 @@
+zope.component    
+# it has dependencies to zope.interface and zope.event
+# so they should be installed automatically
