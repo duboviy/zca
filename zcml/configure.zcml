@@ -1,0 +1,16 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+<include package="zope.component" file="meta.zcml" />
+<utility
+    factory="calc.Plus"
+    provides="calc.IOperation"
+    name="+"
+    />
+
+<utility
+    factory="calc.Minus"
+    provides="calc.IOperation"
+    name="-"
+    />
+
+</configure>
